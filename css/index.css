@@ -1,1 +1,7 @@
-@import './icon.css';
+@import './icons.css';
+@import './fonts.css';
+
+body {
+  font-size: 18px;
+  font-family: 'Open sans', sans-serif;
+}
