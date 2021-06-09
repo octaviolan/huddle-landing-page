@@ -1,0 +1,18 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-content {
+    margin-block-end: 71px;
+  }
+
+  .header-content img {
+    inline-size: 200px;
+    block-size: 31px;
+  }
+}
+

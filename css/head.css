@@ -1,0 +1,16 @@
+@import './header.css';
+@import './hero.css';
+
+.head {
+  padding-block-start: 27px;
+  padding-block-end: 37px;
+  background-image: url('../images/bg-hero-mobile.svg'), linear-gradient(#EDFBFF, #EDFBFF);
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    padding-block-start: 47px;
+    padding-block-end: 72px;
+    background-image: url('../images/bg-hero-desktop.svg'), linear-gradient(#EDFBFF, #EDFBFF);
+  }
+}

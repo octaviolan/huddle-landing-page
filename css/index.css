@@ -1,5 +1,8 @@
 @import './icons.css';
 @import './fonts.css';
+@import './button.css';
+@import './wrapper.css';
+@import './head.css';
 
 :root {
   --basefontFamily: 'Open sans', sans-serif;
@@ -14,17 +17,19 @@
   --bodyMobile: normal 14px/21px var(--basefontFamily);
   --footer: normal 14px/24px var(--basefontFamily);
   --bodyDesktop: normal 18px/27px var(--basefontFamily);
-  --bottonMobile: bold 12px/16px var(--basefontFamily);
-  --bottonDesktop: bold 14px/19px var(--basefontFamily);
+  --buttonMobile: bold 12px/16px var(--basefontFamily);
+  --buttonDesktop: bold 14px/19px var(--basefontFamily);
   --pink: #FF52C1;
   --pinklight: #FF9ADB;
   --veryPaleCyan: hsl(193, 100%, 96%);
   --veryDarkCyan: hsl(192, 100%, 9%);
   --grayishBlue: hsl(208, 11%, 55%);
+  --white: #FFFFFF;
 }
 
 body {
   font-size: 18px;
   font: var(--bodyMobile);
   color: var(--grayishBlue);
+  margin: 0;
 }
