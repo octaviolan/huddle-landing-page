@@ -1,7 +1,30 @@
 @import './icons.css';
 @import './fonts.css';
 
+:root {
+  --basefontFamily: 'Open sans', sans-serif;
+  --fontFamily: Poppins, sans-serif;
+  --headline1Mobile: bold 24px/36px var(--fontFamily);
+  --headline1Desktop: bold 40px/60px var(--fontFamily);
+  --headline2Mobile: bold 20px/30px var(--fontFamily);
+  --headline2Desktop: bold 28px/42px var(--fontFamily);
+  --headline3Mobile: bold 18px/30px var(--fontFamily);
+  --headline3Desktop: bold 32px/60px var(--fontFamily);
+  --heroMobile: normal 16px/24px var(--basefontFamily);
+  --bodyMobile: normal 14px/21px var(--basefontFamily);
+  --footer: normal 14px/24px var(--basefontFamily);
+  --bodyDesktop: normal 18px/27px var(--basefontFamily);
+  --bottonMobile: bold 12px/16px var(--basefontFamily);
+  --bottonDesktop: bold 14px/19px var(--basefontFamily);
+  --pink: #FF52C1;
+  --pinklight: #FF9ADB;
+  --veryPaleCyan: hsl(193, 100%, 96%);
+  --veryDarkCyan: hsl(192, 100%, 9%);
+  --grayishBlue: hsl(208, 11%, 55%);
+}
+
 body {
   font-size: 18px;
-  font-family: 'Open sans', sans-serif;
+  font: var(--bodyMobile);
+  color: var(--grayishBlue);
 }
