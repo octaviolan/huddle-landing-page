@@ -1,0 +1,21 @@
+@import './card.css';
+
+.cards {
+  padding-block-start: 60px;
+}
+
+.cards-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    padding-block-start: 160px;
+  }
+
+  .card:nth-child(even) .card-description{
+    order: -1;
+  }
+}

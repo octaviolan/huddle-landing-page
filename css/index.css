@@ -3,6 +3,7 @@
 @import './button.css';
 @import './wrapper.css';
 @import './head.css';
+@import './cards.css';
 
 :root {
   --basefontFamily: 'Open sans', sans-serif;
