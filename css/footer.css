@@ -63,6 +63,12 @@
 
 .footer-social {
   display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-socialButton {
+  display: flex;
   justify-content: center;
   gap: 12px;
 }
@@ -88,4 +94,24 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-block-start: 144px;
+    padding-block-end: 64px;
+  }
+
+  .footer-description {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-location {
+    flex-basis: 380px;
+  }
+
+  .footer-social {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
 
