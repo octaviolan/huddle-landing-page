@@ -1,0 +1,21 @@
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block-start: 41px;
+  padding-block-end: 41px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+}
+
+
+.cta-title {
+  margin: 0;
+  font: var(--headline3Mobile);
+  color: var(--veryDarkCyan);
+  align-self: center;
+}
+
+.cta-content .button {
+  align-self: center;
+}
