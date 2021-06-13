@@ -2,6 +2,7 @@
 
 .cards {
   padding-block-start: 60px;
+  padding-block-end: 50px;
 }
 
 .cards-content {
@@ -13,6 +14,7 @@
 @media screen and (min-width: 1024px) {
   .cards {
     padding-block-start: 160px;
+    padding-block-end: 80px;
   }
 
   .card:nth-child(even) .card-description{
